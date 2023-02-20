@@ -1,0 +1,68 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    background-color: black;
+    color: green;    
+}
+.introduction{
+    text-align: center;
+  
+}
+#header {
+    font-size: 50px; /* Local Class */
+    font-variant: small-caps; 
+    padding: 15px 5%;
+    
+  }
+
+.opener_img{
+    border-radius: 50%; /* Chose border radius to make img circular. It is a local class */
+    width: 500px;
+    height: 450px;
+    opacity: 0.75; /*Used opacity */
+  
+}
+.sub_header{
+    font-size: 25px; /*Local Class */
+    font-variant: small-caps; /*Chose this element to take the sub header in caps */
+  }
+h2{
+    font-size: 30px;
+    text-align: left;
+}
+h3{
+    font-size: 25px;
+    text-align: left;
+
+}
+h4{
+    font-size: 22px;
+    text-align: left;
+}
+h5{
+    font-size: 20px;
+    text-align: center;
+}
+.text-box{
+    width: 100%;
+    border: 3px solid green;
+    padding: 50px;
+    
+   
+}
+.excerpt{
+    text-align: left;
+    font-size: 20px;
+}
+.img_1{
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: block;
+      
+}
+a{
+    color:blueviolet; /*changed color of hyperlinks. Global */
+}
